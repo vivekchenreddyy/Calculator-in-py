@@ -91,6 +91,10 @@ while True:
         inp1=int(inp[1:])
         k= k*inp1
         print(k)
+    elif inp[0]=="/":
+        inp1=int(inp[1:])
+        k=k*inp1
+        print(k)
     else:
 
         k=k+int(inp)
